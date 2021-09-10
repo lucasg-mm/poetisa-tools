@@ -1,0 +1,80 @@
+[
+    {
+        "pack": "1a147",
+        "qtd_de_E_DIGIT": 13,
+        "qtd_final_de_tweets": 124,
+        "qtd_inicial_de_tweets": 137
+    },
+    {
+        "pack": "dante_pack1",
+        "qtd_de_E_DIGIT": 75,
+        "qtd_final_de_tweets": 257,
+        "qtd_inicial_de_tweets": 332
+    },
+    {
+        "pack": "dante_pack2",
+        "qtd_de_E_DIGIT": 69,
+        "qtd_final_de_tweets": 254,
+        "qtd_inicial_de_tweets": 323
+    },
+    {
+        "pack": "dante_pack3",
+        "qtd_de_E_DIGIT": 70,
+        "qtd_final_de_tweets": 262,
+        "qtd_inicial_de_tweets": 332
+    },
+    {
+        "pack": "dante_pack4",
+        "qtd_de_E_DIGIT": 76,
+        "qtd_final_de_tweets": 256,
+        "qtd_inicial_de_tweets": 332
+    },
+    {
+        "pack": "dante_pack5",
+        "qtd_de_E_DIGIT": 77,
+        "qtd_final_de_tweets": 255,
+        "qtd_inicial_de_tweets": 332
+    },
+    {
+        "pack": "dante_pack6",
+        "qtd_de_E_DIGIT": 86,
+        "qtd_final_de_tweets": 255,
+        "qtd_inicial_de_tweets": 341
+    },
+    {
+        "pack": "dante_pack7",
+        "qtd_de_E_DIGIT": 66,
+        "qtd_final_de_tweets": 263,
+        "qtd_inicial_de_tweets": 329
+    },
+    {
+        "pack": "dante_pack8",
+        "qtd_de_E_DIGIT": 81,
+        "qtd_final_de_tweets": 242,
+        "qtd_inicial_de_tweets": 323
+    },
+    {
+        "pack": "dante_pack9",
+        "qtd_de_E_DIGIT": 70,
+        "qtd_final_de_tweets": 271,
+        "qtd_inicial_de_tweets": 341
+    },
+    {
+        "pack": "dante_pack10",
+        "qtd_de_E_DIGIT": 74,
+        "qtd_final_de_tweets": 255,
+        "qtd_inicial_de_tweets": 329
+    },
+    {
+        "pack": "dante_pack11",
+        "qtd_de_E_DIGIT": 62,
+        "qtd_final_de_tweets": 261,
+        "qtd_inicial_de_tweets": 323
+    },
+    {
+        "pack": "dante_pack12",
+        "qtd_de_E_DIGIT": 52,
+        "qtd_final_de_tweets": 225,
+        "qtd_inicial_de_tweets": 277
+    }
+]

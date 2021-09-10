@@ -1,0 +1,4 @@
+# for the "mini-corpus-builder" directory
+/venv
+/corpus
+/results
