@@ -17,7 +17,7 @@ def generate_conllu_to_merge():
         corpus = pd.read_excel(corpus_directory, dtype=object)
 
         # selects messed up rows
-        messed_up_rows = corpus.loc[(corpus.iloc[:, 0].isna())
+        messed_up_rows = corpus.loc[(corpus.iloc[:, 0].isna() | corpus.iloc[:, 2].isna() | corpus.iloc[:, 3].isna() | corpus.iloc[:, 4].isna() | corpus.iloc[:, 5].isna() | corpus.iloc[:, 6].isna() | corpus.iloc[:, 7].isna() | corpus.iloc[:, 8].isna() | corpus.iloc[:, 9].isna())
                                     & (corpus.iloc[:, 1].notna())]
 
         # fixes them by replacing the NaNs to "_"
@@ -54,7 +54,7 @@ def fix_conllu_to_merge():
 
                 # fixes the tag in the last column
                 if token.id == last_token_id:
-                    token.misc = {'SpacesAfter': {'\\n'}}
+                    token.misc['SpacesAfter'] = {'\\n'}
 
         # saves corrected file
         with open(f"{merge_directory}/corrected-files/{filename}", 'w', encoding='utf-8') as f:
@@ -100,3 +100,5 @@ fix_conllu_to_merge()
 
 print(">> merging the corrections...")
 merge_corrections()
+
+print(">> done!")
